@@ -1,0 +1,32 @@
+.switch-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+
+.company-section {
+    background: linear-gradient(to right, #1d6bbe, #3B8AC4);
+    color: #fff;
+    padding: 100px 0;
+  }
+
+  .company-intro {
+    margin-bottom: 30px;
+  }
+
+  .company-intro h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .company-intro p {
+    font-size: 18px;
+  }
+
+  .company-image {
+    background-image: url("../imgs/company.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }

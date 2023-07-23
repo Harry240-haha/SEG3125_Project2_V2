@@ -1,0 +1,176 @@
+body {
+    padding-top: 0px;
+    background-color: #F1F1F1;
+}
+
+.company-section {
+    background: linear-gradient(to right, #1d6bbe, #3B8AC4);
+    color: #fff;
+    padding: 100px 0;
+  }
+
+  .company-intro {
+    margin-bottom: 30px;
+  }
+
+  .company-intro h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .company-intro p {
+    font-size: 18px;
+  }
+
+  .company-image {
+    background-image: url("../imgs/board.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }
+
+.btn {
+    color: #000;
+    background-color: #EFDBCB;
+}
+
+.company-section .btn {
+    margin-top: 20px;
+}
+
+.sub-nav {
+    background-color: #345DA7;
+}
+
+.sub-nav .nav-link {
+    color: #fff;
+}
+
+.content-section {
+    min-height: 500px;
+}
+
+.solutions-container {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.products-container {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* products - filter bar*/.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.filter-category {
+  margin-right: 20px;
+}
+
+.category-title {
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.category-levels {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+}
+
+.category-levels li {
+  margin-left: 20px; /* Indentation */
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.category-levels input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.category-levels label {
+  cursor: pointer;
+}
+
+.category-levels input[type="checkbox"]:checked + label::before {
+  /*content: "\2713"; /* Checkmark symbol */
+}
+
+/* product list */
+.product-list {
+  text-align: center;
+}
+
+/*search bar*/
+
+.search-bar {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  width: 70%;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* product card*/
+.product-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.product-image {
+  flex: 0 0 150px;
+  margin-right: 20px;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-details h5 {
+  margin-top: 0;
+}
+
+.description-list div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.detail-button {
+  padding: 5px 10px;
+  margin-left: auto;
+}
+

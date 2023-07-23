@@ -1,0 +1,175 @@
+
+    <!-- Content for Products section -->
+    <div class="container products-container">
+      <div class="row">
+        <div class="col-md-3">
+          <!-- Filter bar -->
+          <div class="filter-bar">
+            <div class="filter-category">
+              <h5 class="category-title">Grade of Product</h5>
+              <ul class="category-levels">
+                <li>
+                  <input type="checkbox" id="grade1">
+                  <label for="grade1">Commercial Grade</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="grade2">
+                  <label for="grade2">Industrial Grade</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="grade3">
+                  <label for="grade3">Automotive Grade</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="grade4">
+                  <label for="grade4">Medical Grade</label>
+                </li>
+
+                <li>
+                  <input type="checkbox" id="grade5">
+                  <label for="grade5">Military Grade</label>
+                </li>
+              </ul>
+            </div>
+            <div class="filter-category">
+              <h5 class="category-title">Controller Type</h5>
+              <ul class="category-levels">
+                <li>
+                  <input type="checkbox" id="ct1">
+                  <label for="ct1">Type 1</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="ct2">
+                  <label for="ct2">Type 2</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="ct3">
+                  <label for="ct3">Type 3</label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="filter-category">
+              <h5 class="category-title">Servo Motor Type</h5>
+              <ul class="category-levels">
+                <li>
+                  <input type="checkbox" id="st1">
+                  <label for="st1">Step Motor</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="st2">
+                  <label for="st2">Induction motor</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="st3">
+                  <label for="st3">DC motor</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="st4">
+                  <label for="st4">Hybrid</label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="filter-category">
+              <h5 class="category-title">Power Consumption</h5>
+              <ul class="category-levels">
+                <li>
+                  <input type="checkbox" id="pt1">
+                  <label for="pt1"> < 1VA </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="pt2">
+                  <label for="pt2"> < 100VA </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="pt3">
+                  <label for="pt3"> > 100VA </label>
+                </li>
+              </ul>
+            </div>
+            <!-- Add more filter categories as needed -->
+          </div>          
+          
+        </div>
+        <div class="col-md-9">
+          <!-- Product list -->
+          <div class="product-list">
+            <div class="search-bar">
+              <input type="text" placeholder="Search products...">
+              <button type="button">Search</button>
+            </div>
+            <div class="products">
+              <!-- Product cards will be dynamically added here -->
+              <div class="products">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="imgs/board.png" alt="Product 1">
+                  </div>
+                  <div class="product-details">
+                    <h5>Product 1</h5>
+                    <div class="description-list">
+                      <div>
+                        <span>Grade of Product:</span>
+                        <span>Grade 1</span>
+                      </div>
+                      <div>
+                        <span>Controller Type:</span>
+                        <span>Type 1</span>
+                      </div>
+                      <div>
+                        <span>Servo Motor Typer:</span>
+                        <span>Motor Type A</span>
+                      </div>
+                      <div>
+                        <span>Power Consumption:</span>
+                        <span>Low</span>
+                      </div>
+                      <div>
+                        <button class="detail-button btn">Details</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add more product cards as needed -->
+              </div>
+              
+              <div class="products">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="imgs/board.png" alt="Product 1">
+                  </div>
+                  <div class="product-details">
+                    <h5>Product 1</h5>
+                    <div class="description-list">
+                      <div>
+                        <span>Grade of Product:</span>
+                        <span>Grade 1</span>
+                      </div>
+                      <div>
+                        <span>Controller Type:</span>
+                        <span>Type 1</span>
+                      </div>
+                      <div>
+                        <span>Servo Motor Type:</span>
+                        <span>Motor Type A</span>
+                      </div>
+                      <div>
+                        <span>Power Consumption:</span>
+                        <span>Low</span>
+                      </div>
+                      <div>
+                        <button class="detail-button btn">Details</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add more product cards as needed -->
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

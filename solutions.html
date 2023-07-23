@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NexTech Solutions</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/company.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    
+    <section class="company-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="company-intro">
+                        <div class="english-content">
+                            <h2>NexTech Solution</h2>
+                            <br><br>
+                            <h3>"The key to success in technology is designing a company around people committed to work
+                                that they love"</h3>
+                            <p></p>
+                        </div>
+                        <div class="french-content" style="display:none;">
+                            <h2>NexTech Entreprise</h2>
+                            <br><br>
+                            <h3>"La clé du succès dans la technologie est de concevoir une entreprise autour de
+                                personnes engagées dans un travail qu'elles aiment"</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="company-image"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section section" id="solutions">
+        <main class="container mt-5"><div id="solutions-section"></div></main>
+        
+    </section>
+
+    <div id="footer"></div>
+    <script src="js/header_footer.js"></script>
+</body>
+<script>
+    $(function () {
+        $("#solutions-section").load("includes/solutions.html");
+        //$("#products-section").load("includes/products.html");
+    });
+</script>
+
+</html>
